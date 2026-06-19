@@ -23,9 +23,9 @@ int main() {
 
     display(vec);
 
-   
 
-    
+
+
 
     return 0;
 }

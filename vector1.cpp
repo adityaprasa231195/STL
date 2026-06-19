@@ -49,10 +49,6 @@ int main(){
    cout<<"the last element is :";
    cout<<vec.back()<<"\n";
 
-   
-
-
-
 
 	return 0;
 }
