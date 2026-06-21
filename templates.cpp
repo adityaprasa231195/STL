@@ -1,19 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//class template
-template <typename C,typename N>
-class Animal{
+// class template
+template <typename C, typename N> class Animal {
 public:
-C name;
-N age;
-
+  C name;
+  N age;
 };
 
-
-//function template
-template <typename X> 
-X getmax(X a, X b) {
+// function template
+template <typename X> X getmax(X a, X b) {
   if (a > b)
     return a;
   else
@@ -22,41 +18,21 @@ X getmax(X a, X b) {
 
 int main() {
 
-  //function template
+  // function template
   int maxvalue = getmax(20, 44);
-  double maxvalue1 = getmax(20.223,12.422);
+  double maxvalue1 = getmax(20.223, 12.422);
 
-  cout << maxvalue<<endl;
-  cout << maxvalue1<<endl;
+  cout << maxvalue << endl;
+  cout << maxvalue1 << endl;
 
-
-//class 
-Animal<string , int>ani;
-cout<<"enter animal name";
-cin>>ani.name;
-cout<<"\n"<<ani.name;
-cout<<"\n"<<"enter age of animal";
-cin>>ani.age;
-cout<<ani.age<<endl;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  // class
+  Animal<string, int> ani;
+  cout << "enter animal name";
+  cin >> ani.name;
+  cout << "\n" << ani.name;
+  cout << "\n" << "enter age of animal";
+  cin >> ani.age;
+  cout << ani.age << endl;
 
   return 0;
 }
-
